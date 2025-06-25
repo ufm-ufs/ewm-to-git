@@ -2,11 +2,23 @@
 This tool will migrate each component in a Stream to its own git repository.
 
 ## Usage
+
+1. Build with gradle
+1. Fill out the properties file - migrate.properties
+1. Include EWM jar files for your version of EWM
+1. Run dk.ufm.rtc.Migrate
+
+### Properties
+
 You should make a copy of the migrate.properties.sample file called migrate.properties and input the relevant settings.
+
+### Jar files
 
 The jar files for the "Plain Java Client Libraries" are not included here and should be downloaded from jazz.net. They are not included partly due to licensing issues and partly because it is important that you get the libraries that match your installation version (or it won't work). You should extract the jar files in a folder in the "lib" folder.
 
 You can find the jar files under Downloads for your release of EWM. You need to select the tab "Repositories and more". The "Plain Java Client Libraries" is under the "other downloads" section.
+
+### Run
 
 You can then run the main class, dk.ufm.rtc.Migrate
 
