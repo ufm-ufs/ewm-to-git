@@ -1,0 +1,9 @@
+RTC_USER = user
+RTC_PASSWORD = pass
+RTC_URL = https://rtc.com:9443/jazz
+STREAM_NAME = Stream name
+GIT_EXEC_PATH = C:\\path\\to\\bin\\git.exe
+GIT_REPO_ROOT = C:\\path\\to\\output
+LOG_DIR = C:\\path\\to\\log
+TIMEZONE = Europe/Copenhagen
+BRANCH_NAME = refs/heads/main
