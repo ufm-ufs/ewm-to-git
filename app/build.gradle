@@ -22,7 +22,6 @@ dependencies {
     // This dependency is used by the application.
     implementation libs.guava
     
-    implementation libs.postgres
     implementation fileTree(dir: 'lib/', include: ['**/*.jar'])
 }
 

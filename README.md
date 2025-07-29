@@ -22,6 +22,8 @@ You can find the jar files under Downloads for your release of EWM. You need to 
 
 You can then run the main class, dk.ufm.rtc.Migrate
 
+Note: The resulting git repository will not be checked out. You should checkout the branch defined in the properties file to see the files in the local file system.
+
 ## Notes
 Rename, reparent and rename_reparent are all handled as renames. All the kinds with modify in its name (modify_rename, modify_reparent, modify_rename_reparent) are all handled as a rename followed by a modify.
 
